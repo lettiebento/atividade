@@ -1,5 +1,37 @@
+/* Container centralizado */
 .container {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Bloco com texto e imagem lado a lado */
+.bloco-destaque {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Variação para inverter o lado da imagem */
+.bloco-invertido {
+  flex-direction: row-reverse;
+}
+
+/* Texto formatado */
+.texto-destaque {
+  color: #2C3E50;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 500px;
+  text-align: justify;
+}
+
+/* Imagem com estilo */
+.imagem-destaque {
+  width: 350px;
+  height: auto;
+  border-radius: 8px;
 }
