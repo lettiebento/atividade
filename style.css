@@ -15,6 +15,15 @@
   justify-content: flex-start; /* Alinha à esquerda */
 }
 
+/* Bloco com texto e imagem lado a lado */
+.bloco-destaque-invertido {
+  display: flex;
+  align-items: center; /* Alinha o texto e a imagem verticalmente */
+  gap: 20px; /* Espaçamento entre o texto e a imagem */
+  margin-bottom: 40px;
+  justify-content: flex-end; /* Alinha à direita */
+}
+
 /* Estilização do primeiro parágrafo (Texto 1) */
 .texto-destaque {
   color: #2C3E50; /* Cor forte para o texto (um tom de azul escuro) */
@@ -31,3 +40,5 @@
   height: auto;
   border-radius: 8px;
 }
+
+
